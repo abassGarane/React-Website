@@ -1,0 +1,71 @@
+:root {
+	--yellow: #ffd60a;
+	--light-gray: #eee;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 6rem;
+	width: 100%;
+	margin: 10px 10px;
+	background-color: #f5f3f3;
+}
+.nav .nav__logo {
+	margin-left: 40px;
+}
+.nav .nav__logo p {
+	color: #000;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2rem;
+	letter-spacing: 3px;
+}
+
+.nav .nav__main ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav .nav__main ul li {
+	margin-right: 30px;
+	list-style: none;
+	padding: 0 10px;
+	font-size: 0.9rem;
+}
+
+.nav .nav__main ul li a {
+	text-decoration: none;
+	color: #555;
+}
+.nav .nav__main ul li a:hover {
+	color: #444;
+}
+
+.nav .nav__register {
+	/* width: 20%; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav .nav__register > * {
+	cursor: pointer;
+}
+.nav .nav__register .login {
+	background-color: var(--lightgray);
+	margin-right: 100px;
+	border: none;
+	font-weight: 600;
+	color: var(--yellow);
+}
+
+.nav .nav__register .signup {
+	background-color: var(--yellow);
+	color: #fff;
+	padding: 5px 15px;
+	border: 1px solid yellow;
+	border-radius: 20px;
+	margin-right: 50px;
+	font-weight: 600;
+}

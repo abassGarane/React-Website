@@ -1,0 +1,45 @@
+.analytics {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 100px;
+}
+
+.analytics .left {
+	height: 400px;
+	padding: 20px;
+}
+.analytics .left img {
+	height: 100%;
+}
+.analytics .right {
+	display: block;
+	padding: 20px;
+	/* width: 400px; */
+}
+
+.analytics .right h4 {
+	color: #555;
+	padding: 10px 0;
+}
+.analytics .right p {
+	padding: 10px 0;
+	color: #888;
+}
+.analytics .right .comment {
+	display: flex;
+	justify-content: space-between;
+}
+.analytics .right .comment p {
+	color: #999;
+}
+.analytics .right button {
+	border: none;
+	background-color: #ffd60a;
+	padding: 10px 25px;
+	text-align: center;
+	/* font-size: 1.2rem; */
+	font-weight: 500;
+	border-radius: 25px;
+	color: #fff;
+}

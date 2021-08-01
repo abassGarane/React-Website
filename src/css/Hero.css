@@ -1,0 +1,49 @@
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero .hero__left {
+	display: flex;
+	flex-direction: column;
+}
+.hero .hero__left h1 {
+	padding: 20px;
+	color: #444;
+}
+.hero .hero__left p {
+	padding: 20px;
+	color: #777;
+	font-size: 14px;
+}
+.hero .hero__right > img {
+	height: 80vh;
+	/* margin-right: 10vw; */
+}
+.hero .hero__left .subscribe {
+	padding: 20px;
+	display: flex;
+	height: 80px;
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* position: relative; */
+}
+.hero .hero__left .subscribe input {
+	outline: none;
+	border: none;
+	background-color: #fff;
+	border-radius: 40px;
+	height: 100%;
+	padding: 0 20px;
+}
+.hero .hero__left .subscribe button {
+	background-color: #ffd60a;
+	height: 100%;
+	border: none;
+	margin-left: -40px;
+	border-radius: 40px;
+	padding: 0 20px;
+	color: #fff;
+	font-weight: 600;
+}

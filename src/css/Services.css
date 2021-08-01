@@ -1,0 +1,39 @@
+.services {
+	display: flex;
+	justify-content: space-between;
+	margin: 100px;
+}
+
+.services .service {
+	display: block;
+	padding: 20px;
+	/* background-color: #fffefe; */
+	width: 300px;
+	border-radius: 10px;
+	/* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); */
+}
+
+.services .service__logo {
+	color: #fff;
+	width: 50px;
+	padding: 10px;
+	border-radius: 15px;
+}
+.services .service .s1 {
+	background-color: #ffd60a;
+}
+.services .service .s2 {
+	background-color: #3e7d56;
+}
+.services .service .s3 {
+	background-color: #ffafcc;
+}
+
+.services .service__logo .MuiSvgIcon-root {
+	font-size: 30px;
+}
+
+.service h4 {
+	padding: 10px 0;
+	color: #444;
+}
